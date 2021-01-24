@@ -9,7 +9,7 @@ public class WebSocketController {
     
     @RequestMapping("/websocket")
     public String getWebSocket() {
-        return "common";
+        return "ws-broadcast";
     }
 }
 
